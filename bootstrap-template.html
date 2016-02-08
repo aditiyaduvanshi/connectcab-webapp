@@ -22,6 +22,88 @@
         
     }
 
+    #para1 {
+    //margin-top: 2%;
+    margin-left: 40%;
+    font-size:28px;
+    color: black;
+}
+
+  #para2 {
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size:25px;
+    color: #4CAF50 ;
+}
+
+     #para3 {
+    margin-top: 1%;
+    margin-left: 40%;
+    font-size:17px;
+    color: black ;
+}
+
+   #para4 {
+    //margin-top: 2%;
+    //margin-left: 40%;
+    padding-top: 0%;
+    font-size:52px;
+    color: black;
+    text-align: center;
+
+}
+
+  div.img {
+    margin: 7px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    height: 250px;
+} 
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #333;
+    }
+
+.active {
+    background-color: #4CAF50;
+     color: white;
+}
+
     .title-bar{
         min-height: 10%;
         position: relative;
@@ -32,30 +114,127 @@
     .content{
         min-height: 100%;
         position: relative;
-        background-color: #AB3334;
-        background-image: url("C:\Users\winaditi\Documents\connectcab\connectcab-webapp\old1.jpg");
+        background-color: Gainsboro;
+        background-image: url("old2.jpg");
+        
         background-repeat: no-repeat;
-        background-size: 100% 50%
+        background-size: 100% 65%
         
 
     }
 
-    .footer{
-        min-height: 10%;
+    .content2{
+        min-height: 70%;
         position: relative;
+        background-color: Gainsboro;
+        margin-bottom: 0px
+    }
+
+    .content3{
+        min-height: 85%;
+        position: relative;
+        background-color: Gainsboro;
+       // margin-top: 0px;
+
+    }
+
+    .content4{
+        min-height: 85%;
+        position: relative;
+        background-color: red;
+       // margin-top: 0px;
+
     }
 
     .sub-div{
-      min-height: 60%;
+      min-height: 50%;
       width: 50%;
-      border: 2px solid black;  
+    //border: 2px solid black;  
       position: absolute;
-      background-color: red;
-      opacity: 0.4;
+      background-color: white;
+     
       padding-top: 0px;
       padding-left: 0px;
-      margin-top: 60px;
+      margin-right: 30%;
+      margin-left: 4%;
+      margin-top: 14%;
+
+    //  height:400px;
+   // width:300px;
+    background-size: 300px 360px;
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+    //border-style: ridge;
+    background-position: 5% 42%;
     }
+
+     .sub-di{
+      min-height: 15%;
+      width: 100%;
+      
+    //border: 2px solid black;  
+      position: absolute;
+      background-color: #4CAF50;
+     
+      padding-top: 0px;
+      padding-left: 0px;
+    margin-right: 25%;
+      margin-top:25%;
+    }
+
+    .div2{
+       min-height: 40%;
+      width: 100%;
+      
+    //border: 2px solid black;  
+      position: absolute;
+      background-color: #333;
+     
+      padding-top: 0px;
+      padding-left: 0px;
+    //margin-right: 25%;
+      margin-top:5%;
+    }
+
+    .div3{
+       min-height: 60%;
+      width: 100%;
+      
+    //border: 2px solid black;  
+      position: absolute;
+      background-color: #333;
+     
+      padding-top: 0px;
+      padding-left: 0px;
+    //margin-right: 25%;
+      margin-top:5%;
+    }
+
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    
+    padding: 40px;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    border-bottom: 1px solid #111;
+}
+
+
+    }
+
+  /*  img {
+    border-radius: 8px;
+    
+    margin-left: 4%; 
+    margin-top: 4%;
+}*/
+
 
     body{
         padding-bottom: 0px;
@@ -70,11 +249,147 @@
 
     <div class="content" style="margin-bottom:0px;margin-top:0px">
       <div class="container"  >
-          <div class="sub-div" >
-            <p style="color:white;font-size:50px"></p>
+
+                              <ul>
+  <li><a class="active" href="#home">About</a></li>
+  <li><a href="#news">Education</a></li>
+  <li><a href="#contact">Interest</a></li>
+  <li><a href="#about">Skills</a></li>
+  <li><a href="#about">Work</a></li>
+  <li><a href="#about">Travel</a></li>
+  <li><a href="#about">Contact</a></li>
+</ul>
+
+
+
+                                        <div class="sub-div" >
+                                       
+            <p id="para2"><b>Hello</b></p>
+            <p id="para1">I'm <b><i>Aditi Yaduvanshi</i></b></p>
+            <p id="para3">Engineering Student</p>
+            
+            <div class="sub-di">
+            <p>
+              
+            </p>
+            </div>
           </div>
       </div>
     </div>
+
+    <div class="content2">
+    <p id="para4"><b><i><beautify><u>Education</u></beautify></i></b></p>
+      <div class="div2">
+
+      <table>
+  <tr>
+    <td><i><small>2010-2013</small></i></td>
+    <td><b>St. Wilfreds School</b><br><small><beautify>higher secondary school</beautify></td>
+   
+  </tr>
+  <tr>
+    <td><i><small>2014-2018</small></i></td>
+    <td><b>Birla Institute Of Tecnology</b><br><small><beautify>b.tech (cse)</beautify></td>
+  </tr>
+  
+</table>
+
+
+        
+      </div>
+    </div>
+
+    <div class="content3">
+     <p id="para4"><b><i><beautify><u>Interest</u></beautify></i></b></p>
+     <div class="div3">
+      <div class="img">
+        <a target="_blank" href="http://www.raqwe.com/wp-content/uploads/2013/09/headphones-bowers-wilkins-p7-metal-leather-raqwe.com-01.jpg">
+          <img src="http://www.raqwe.com/wp-content/uploads/2013/09/headphones-bowers-wilkins-p7-metal-leather-raqwe.com-01.jpg" alt="Forest" width="300" height="400">
+        </a>
+       </div>
+      <div class="img">
+  <a target="_blank" href="http://i.ebayimg.com/00/s/NTY2WDg0OQ==/z/n~0AAOSwGzlTtZOW/$_32.JPG?set_id=880000500F">
+    <img src="http://i.ebayimg.com/00/s/NTY2WDg0OQ==/z/n~0AAOSwGzlTtZOW/$_32.JPG?set_id=880000500F" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
+    <div class="img">
+  <a target="_blank" href="pav.jpg">
+    <img src="pav.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
+   <div class="img">
+  <a target="_blank" href="http://trendymods.com/wp-content/uploads/2015/06/big-classic-Shopping-Bags-for-every-one-10.jpg">
+    <img src="http://trendymods.com/wp-content/uploads/2015/06/big-classic-Shopping-Bags-for-every-one-10.jpg" alt="Trolltunga Norway" width="300" height="100%">
+  </a>
+</div>
+
+   <div class="img">
+  <a target="_blank" href="https://s-media-cache-ak0.pinimg.com/236x/a0/16/96/a01696412fc05b59444a1f1bdaf05b1b.jpg">
+    <img src="https://s-media-cache-ak0.pinimg.com/236x/a0/16/96/a01696412fc05b59444a1f1bdaf05b1b.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
+   <div class="img">
+  <a target="_blank" href="http://www.inspiredwater.org/wp-content/uploads/2010/10/bannerImage1.jpg">
+    <img src="http://www.inspiredwater.org/wp-content/uploads/2010/10/bannerImage1.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
+    <div class="img">
+  <a target="_blank" href="http://sandierpastures.com/wp-content/uploads/2015/10/budget-travel.jpg">
+    <img src="http://sandierpastures.com/wp-content/uploads/2015/10/budget-travel.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
+    <div class="img">
+  <a target="_blank" href="http://science-all.com/images/waterfall/waterfall-06.jpg">
+    <img src="http://science-all.com/images/waterfall/waterfall-06.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
+  <div class="img">
+  <a target="_blank" href="http://cdn.playbuzz.com/cdn/0d5502d7-a6f5-4a57-adc5-bf72ad8bc5c7/d8a9a9ad-df83-4e15-841a-1b48d00a440d.jpg">
+    <img src="http://cdn.playbuzz.com/cdn/0d5502d7-a6f5-4a57-adc5-bf72ad8bc5c7/d8a9a9ad-df83-4e15-841a-1b48d00a440d.jpg" alt="Trolltunga Norway" width="600" height="600">
+  </a>
+</div>
+
+   <div class="img">
+  <a target="_blank" href="https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf">
+    <img src="https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf" alt="Trolltunga Norway" width="600" height="600">
+  </a>
+</div>
+
+  <div class="img">
+  <a target="_blank" href="http://i.huffpost.com/gen/1398985/images/o-MEDITATION-facebook.jpg">
+    <img src="http://i.huffpost.com/gen/1398985/images/o-MEDITATION-facebook.jpg" alt="Trolltunga Norway" width="600" height="600">
+  </a>
+</div>
+
+  <div class="img">
+  <a target="_blank" href="http://netnz.org/wp-content/uploads/2014/12/Photography-Camera-HD-Wallpaper1.jpg">
+    <img src="http://netnz.org/wp-content/uploads/2014/12/Photography-Camera-HD-Wallpaper1.jpg" alt="Trolltunga Norway" width="600" height="600">
+  </a>
+</div>
+ 
+ <div class="img">
+  <a target="_blank" href="img_fjords.jpg">
+    <img src="img_fjords.jpg" alt="Trolltunga Norway" width="600" height="600">
+  </a>
+</div>
+   
+  <div class="img">
+  <a target="_blank" href="img_fjords.jpg">
+    <img src="img_fjords.jpg" alt="Trolltunga Norway" width="600" height="600">
+  </a>
+</div>
+
+     </div> 
+    </div>
+
+
+    <div class="content4"></div>
 
    
 
