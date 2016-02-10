@@ -23,7 +23,10 @@
     }
 
     .bs-example{
-      margin-top: 0%;
+      margin-top: 30%;
+      margin-left: 46%;
+      font-size: 20px;
+
     }
 
      #map {
@@ -55,7 +58,7 @@
    #para6 {
     margin-top: 1%;
     margin-left: 40%;
-    font-size:22px;
+    font-size:18px;
     color: black ;
 }
 
@@ -74,29 +77,68 @@
     //margin-top: 2%;
     //margin-left: 40%;
     padding-top: 0%;
-    font-size:30px;
+    font-size:20px;
     color: white;
     padding: 30px;
    // text-align: center;
 
 }
 
+   #para7 {
+    margin-top: 1%;
+    //margin-left: 40%;
+    //padding-top: 0%;
+    font-size:17px;
+    color: white;
+    //padding: 30px;
+    text-align: center;
+
+}
+
   div.img {
     margin: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #777;
     float: left;
     width: 250px;
     height: 250px;
 } 
 
 div.img:hover {
-    border: 1px solid #777;
+    border: 1px solid #333;
+    opacity: 0.3;
 }
 
 div.img img {
     width: 100%;
     height: 100%;
 }
+
+
+   .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 
 
@@ -304,10 +346,24 @@ div.img img {
       position: absolute;
       background-color: #333;
      
-      padding-top: 4%;
+      padding-top: 5%;
       padding-left: 10%;
     margin-left: 0%;
       margin-top:5%;
+    }
+
+    .footer{
+      min-height: 6%;
+      width: 100%;
+      
+    //border: 2px solid black;  
+      position: absolute;
+      background-color: #4CAF50;
+     
+      padding-top: 0px;
+      padding-left: 0px;
+    margin-right: 0%;
+      margin-top:-2%;
     }
 
     table {
@@ -318,9 +374,9 @@ div.img img {
 
 th, td {
     
-    padding: 40px;
+    padding: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     border-bottom: 1px solid #111;
 }
@@ -333,9 +389,9 @@ th, td {
 
     table#t01 td {
     
-    padding: 45px;
+    padding: 49px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     border-bottom: 1px solid #111;
 }
@@ -381,9 +437,9 @@ th, td {
                                         <div class="sub-div" >
                                        
             <p id="para2"><b>Hello</b></p>
-            <p id="para1">I'm <b><i>Aditi Yaduvanshi</i></b></p>
+            <p id="para1">I'm <b>Aditi Yaduvanshi</b></p>
             <p id="para3">B.tech - BIT Mesra<br>______________________________________________________</p>
-            <p id="para6"><br>DOB &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <b>1-feb-95</b><br><br>COUNTRY &nbsp &nbsp&nbsp &nbsp &nbsp <b>India</b><br><br>EMAIL&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<b>aditi.yaduvanshi95@gmail.com</b></p>
+            <p id="para6"><br><small>DOB &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </small><b>1-feb-95</b><br><br><small>COUNTRY &nbsp &nbsp&nbsp &nbsp &nbsp </small><b>India</b><br><br><small>EMAIL&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</small><b>aditi.yaduvanshi95@gmail.com</b></p>
             
             <div class="sub-di">
             <p>
@@ -396,18 +452,18 @@ th, td {
     </div>
 
     <div class="content2">
-    <p id="para4"><b><i><beautify><u>Education</u></beautify></i></b></p>
+    <p id="para4"><i><beautify>Education <u><b>&#8718;</b></u></beautify></i></p>
       <div class="div2">
 
       <table>
   <tr>
-    <td><i><small>2010-2013</small></i></td>
-    <td><b><i>St. Wilfreds School</i></b><br><small><beautify>higher secondary school</beautify></td>
+    <td><small>2011-2013</small></td>
+    <td><b>St. Wilfreds School</b><br><small><beautify>higher secondary school</beautify></small></td>
    
   </tr>
   <tr>
-    <td><i><small>2014-2018</small></i></td>
-    <td><b><i>Birla Institute Of Tecnology</i></b><br><small><beautify>b.tech (cse)</beautify></td>
+    <td><small>2014-2018</small></td>
+    <td><b>Birla Institute Of Tecnology</b><br><small><beautify>b.tech (cse)</beautify></td>
   </tr>
   
 </table>
@@ -418,12 +474,12 @@ th, td {
     </div>
 
     <div class="content3">
-     <p id="para4"><b><i><beautify><u>Interest &#9749;</u></beautify></i></b></p>
-     <div class="div3">
+     <p id="para4"><i><beautify>Interest &#9749;</beautify></i></p>
+     <div class="div3" >
       <div class="img">
         <a target="_blank" href="http://www.raqwe.com/wp-content/uploads/2013/09/headphones-bowers-wilkins-p7-metal-leather-raqwe.com-01.jpg">
           <img src="http://www.pc-tablet.co.in/wp-content/uploads/2015/08/headphones-surround-sound.jpg" alt="Forest" width="300" height="400">
-        </a>
+        </a><div class="tooltip"><span class="tooltiptext">Tooltip text</span></div>
        </div>
       <div class="img">
   <a target="_blank" href="http://i.ebayimg.com/00/s/NTY2WDg0OQ==/z/n~0AAOSwGzlTtZOW/$_32.JPG?set_id=880000500F">
@@ -508,23 +564,23 @@ th, td {
 
 
     <div class="content4">
-      <p id="para4"><b><i><beautify><u>Skills</u></beautify></i></b></p>
+      <p id="para4"><i><beautify>Skills &#10002;</beautify></i></p>
       <div class="div4">
          <table id="t01">
   <tr>
-    <td ><i>c</i></td>
-     <td><i>data structures</i></td>
-     <td ><i>java</i></td>
+    <td>c</i></td>
+     <td>data structures</i></td>
+     <td>java</i></td>
   </tr>
    <tr>
-    <td ><i>sql</i></td>
-     <td><i>html</i></td>
-     <td ><i>css</i></td>
+    <td >sql</i></td>
+     <td>html</i></td>
+     <td >css</i></td>
   </tr>
    <tr>
-    <td ><i>javascript</i></td>
-     <td><i>xml</i></td>
-     <td><i>bootstrap</i></td>
+    <td >javascript</i></td>
+     <td>xml</i></td>
+     <td>bootstrap</i></td>
   </tr>
 </table>
 
@@ -535,7 +591,7 @@ th, td {
 
       <div class="bs-example">
     <form>
-        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-save"></span> Dowload Resume</button>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> Dowload Resume</button>
     </form>
 </div>
 
@@ -543,93 +599,95 @@ th, td {
 
 
     <div class="content5">
-     <p id="para4"><b><i><beautify><u>Work &#9997;</u></beautify></i></b></p>
+     <p id="para4"><i><beautify>Work <b>&#9997;</b></beautify></i></p>
       <div class="div5"></div>
     </div>
 
     <div class="content3">
-     <p id="para4"><b><i><beautify><u>Place &#9951;</u></beautify></i></b></p>
+     <p id="para4"><i><beautify>Place <u>&#9951;</u></beautify></i></p>
      <div class="div3">
+
+      <div class="img">
+  <a target="_blank" href="">
+    <img src="http://www.nativeplanet.com/photos/big/2012/08/_13463093110.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+</div>
+
       <div class="img">
         <a target="_blank" href="">
-          <img src="" width="300" height="400">
+          <img src="http://www.techtravel.ch/u_voyages/0491_image2.jpg" width="300" height="400">
         </a>
        </div>
+
       <div class="img">
   <a target="_blank" href="">
-    <img src="" width="300" height="200">
+    <img src="http://1.bp.blogspot.com/-az09PefXMpQ/UdRMg81w8QI/AAAAAAAAATg/tEFq4Pp9LRY/s575/lotus+temple.jpg" width="300" height="200">
   </a>
 </div>
 
     <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="300" height="200">
+    <img src="http://www.siliconindia.com/travelcity/travel_images/Z1WAtCav.jpg" alt="Trolltunga Norway" width="300" height="200">
   </a>
 </div>
 
    <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="300" height="100%">
+    <img src="http://www.hotelayodhyamysore.com/images/mysore/Mysore_Palace.jpg" alt="Trolltunga Norway" width="300" height="100%">
   </a>
 </div>
 
    <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-</div>
-
-   <div class="img">
-  <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="300" height="200">
+    <img src="http://giridhari.com/wp-content/uploads/2014/07/ISKCON-Bangalore-Radha-Krishna-n-Caitanya.jpg" alt="Trolltunga Norway" width="300" height="200">
   </a>
 </div>
 
     <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="300" height="200">
+    <img src="http://f.tqn.com/y/goindia/1/S/h/4/0/-/95846139.jpg" alt="Trolltunga Norway" width="300" height="200">
   </a>
 </div>
 
     <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="300" height="200">
+    <img src="http://www.rickshawchallenge.com/wp-content/gallery/rameshwaram/rameshwaram.jpg" alt="Trolltunga Norway" width="300" height="200">
   </a>
 </div>
 
   <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="600" height="600">
+    <img src="http://dazzlingbelle.com/wp-content/uploads/2014/01/dhanushkodi5.jpg" alt="Trolltunga Norway" width="600" height="600">
   </a>
 </div>
 
    <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="600" height="600">
+    <img src="http://gluebomb.com/wp-content/uploads/2015/06/worli_sea_link_last.png" alt="Trolltunga Norway" width="600" height="600">
   </a>
 </div>
 
   <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="600" height="600">
+    <img src="http://image3.mouthshut.com/images/Restaurant/Photo/-41557_7573.jpg" alt="Trolltunga Norway" width="600" height="600">
   </a>
 </div>
 
   <div class="img">
   <a target="_blank" href="">
-    <img src="" alt="Trolltunga Norway" width="600" height="600">
+    <img src="https://c2.staticflickr.com/8/7037/6810478104_3378a1a8da_b.jpg" alt="Trolltunga Norway" width="600" height="600">
   </a>
 </div>
  
  <div class="img">
   <a target="_blank" href="img_fjords.jpg">
-    <img src="img_fjords.jpg" alt="Trolltunga Norway" width="600" height="600">
+    <img src="http://goayell.com/wp-content/uploads/2012/07/bigfoot-ponda-goa.jpg" alt="Trolltunga Norway" width="600" height="600">
   </a>
 </div>
    
   <div class="img">
   <a target="_blank" href="img_fjords.jpg">
-    <img src="img_fjords.jpg" alt="Trolltunga Norway" width="600" height="600">
+    <img src="http://www.goaindiahotels.com/goa-images/goa-beach-tour.jpg" alt="Trolltunga Norway" width="600" height="600">
   </a>
 </div>
 
@@ -638,7 +696,7 @@ th, td {
 
 
     <div class="content6">
-      <p id="para4"><b><i><beautify><u>Contact &#9993;</u></beautify></i></b></p>
+      <p id="para4"><i><beautify>Contact &#9993;</beautify></i></p>
       <div class="div6">
         
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:400px;width:600px;"><div id="gmap_canvas" style="height:400px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.pureblack.de" id="get-map-data">pureblack.de</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(26.8486325,75.76629249999996),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(26.8486325, 75.76629249999996)});infowindow = new google.maps.InfoWindow({content:"<b></b><br/>kabir marg vijay path<br/> jaipur" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
@@ -646,12 +704,14 @@ th, td {
       </div>
 
       <div class="div7">
-        <p id="para5"><small>ADDRESS  &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp </small><i>105/141, Kabir Marg, Vijay Path,<br>   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Mansarovar, Jaipur(Raj)</i><br><br><small>PIN CODE &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp     </small><i>302020</i><br><br><small>EMAIL &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp </small><i>aditi.yaduvanshi95@gmail.com</i></p>
+        <p id="para5"><small>ADDRESS  &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp </small>105/141, Kabir Marg, Vijay Path,<br>   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Mansarovar, Jaipur(Raj)<br><br><small>PIN CODE &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp     </small>302020<br><br><small>EMAIL &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp </small>aditi.yaduvanshi95@gmail.com</p>
       </div>
 
     </div>
 
-   
+   <div class="footer">
+     <p id="para7">Copyright  &#169; Aditi Yaduvanshi 2016</p>
+   </div>
 
    
 </body>
